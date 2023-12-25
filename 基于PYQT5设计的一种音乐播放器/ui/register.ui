@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>userRegister</class>
+ <widget class="QWidget" name="userRegister">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1259</width>
+    <height>644</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>注册</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="image/qrc/Picture.qrc">
+    <normaloff>:/image/心-音符.png</normaloff>:/image/心-音符.png</iconset>
+  </property>
+  <widget class="QLineEdit" name="userlineEdit">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>139</y>
+     <width>481</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>24</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="user">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>139</y>
+     <width>48</width>
+     <height>48</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/image/用户名-登录页.png);</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="psdlineEdit1">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>220</y>
+     <width>481</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>24</pointsize>
+    </font>
+   </property>
+   <property name="inputMethodHints">
+    <set>Qt::ImhDialableCharactersOnly|Qt::ImhDigitsOnly|Qt::ImhEmailCharactersOnly|Qt::ImhExclusiveInputMask|Qt::ImhFormattedNumbersOnly|Qt::ImhHiddenText|Qt::ImhLatinOnly|Qt::ImhLowercaseOnly|Qt::ImhNoAutoUppercase|Qt::ImhNoPredictiveText|Qt::ImhSensitiveData|Qt::ImhUppercaseOnly|Qt::ImhUrlCharactersOnly</set>
+   </property>
+   <property name="inputMask">
+    <string/>
+   </property>
+   <property name="maxLength">
+    <number>255</number>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Password</enum>
+   </property>
+   <property name="dragEnabled">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="user_lable">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>140</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>黑体</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>用户名：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="password_lable">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>220</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>黑体</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>密  码：</string>
+   </property>
+  </widget>
+  <widget class="QGraphicsView" name="password">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>220</y>
+     <width>48</width>
+     <height>48</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/image/密码.png);</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="title">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>50</y>
+     <width>181</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>24</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>用  户  注 册</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="password_lable_2">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>310</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>黑体</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>确 认 密 码：</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="psdlineEdit2">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>310</y>
+     <width>481</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>24</pointsize>
+    </font>
+   </property>
+   <property name="inputMethodHints">
+    <set>Qt::ImhDialableCharactersOnly|Qt::ImhDigitsOnly|Qt::ImhEmailCharactersOnly|Qt::ImhExclusiveInputMask|Qt::ImhFormattedNumbersOnly|Qt::ImhHiddenText|Qt::ImhLatinOnly|Qt::ImhLowercaseOnly|Qt::ImhNoAutoUppercase|Qt::ImhNoPredictiveText|Qt::ImhSensitiveData|Qt::ImhUppercaseOnly|Qt::ImhUrlCharactersOnly</set>
+   </property>
+   <property name="inputMask">
+    <string/>
+   </property>
+   <property name="maxLength">
+    <number>255</number>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Password</enum>
+   </property>
+   <property name="dragEnabled">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="tips1">
+   <property name="geometry">
+    <rect>
+     <x>980</x>
+     <y>170</y>
+     <width>221</width>
+     <height>130</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>至少包含，小写字母，大写字母，数字，特殊字符其中的两种，密码长度在4到24位之间</string>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="tips2">
+   <property name="geometry">
+    <rect>
+     <x>980</x>
+     <y>295</y>
+     <width>221</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>再一次确认密码，与上一栏密码内容一致。</string>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bnt_register">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>410</y>
+     <width>181</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>24</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>注册</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="logo1">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>60</y>
+     <width>48</width>
+     <height>48</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/image/心-音符.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="logo1_2">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>60</y>
+     <width>48</width>
+     <height>48</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/image/心-音符.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="image/qrc/Picture.qrc"/>
+ </resources>
+ <connections/>
+</ui>

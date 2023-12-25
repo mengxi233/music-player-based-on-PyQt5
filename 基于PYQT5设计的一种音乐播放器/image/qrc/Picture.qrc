@@ -1,0 +1,45 @@
+<RCC>
+  <qresource prefix="image">
+    <file>搜索.png</file>
+    <file>Anamnisar.jpg</file>
+    <file>退出登录.png</file>
+    <file>验证码 .png</file>
+    <file>tlogo.png</file>
+    <file>密码.png</file>
+    <file>用户名-登录页.png</file>
+    <file>用户名-登录页.png</file>
+    <file>登录.png</file>
+    <file>心-音符.png</file>
+    <file>主题.png</file>
+    <file>其他.png</file>
+    <file>排行.png</file>
+    <file>heart.png</file>
+    <file>music2-音乐.png</file>
+    <file>Picture.qrc</file>
+    <file>爱心2.png</file>
+    <file>播放.png</file>
+    <file>创作.png</file>
+    <file>创作2.png</file>
+    <file>点赞.png</file>
+    <file>分享.png</file>
+    <file>更多.png</file>
+    <file>静音.png</file>
+    <file>删除.png</file>
+    <file>上传.png</file>
+    <file>上一集.png</file>
+    <file>图片.png</file>
+    <file>下一集.png</file>
+    <file>想看.png</file>
+    <file>暂停.png</file>
+    <file>创作.png</file>
+    <file>创作2.png</file>
+    <file>点赞.png</file>
+    <file>分享.png</file>
+    <file>更多.png</file>
+    <file>上传.png</file>
+    <file>图片.png</file>
+    <file>想看.png</file>
+    <file>heart.png</file>
+    <file>爱心2.png</file>
+  </qresource>
+</RCC>
